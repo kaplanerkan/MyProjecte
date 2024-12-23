@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MyRoomObserveLiveDataProject</string>
+    <string name="add_user">Add User</string>
+    <string name="update_user">Update User</string>
+    <string name="delete_user">Delete User</string>
+</resources>

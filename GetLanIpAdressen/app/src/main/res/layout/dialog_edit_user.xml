@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/editId"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:enabled="false"
+
+                android:hint="@string/id" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:hint="@string/username"
+        android:id="@+id/editName"
+        android:layout_height="50dp"
+
+        android:layout_width="match_parent" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:hint="@string/age"
+        android:id="@+id/editAge"
+        android:inputType="number"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:text="@={String.valueOf(user.age)}" />
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editAuthorization"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:enabled="false"
+
+        android:hint="@string/authorization" />
+</androidx.appcompat.widget.LinearLayoutCompat>
+
