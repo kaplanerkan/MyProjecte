@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MySimpleLiveDataMitViewModel</string>
+    <string name="click_me">Click ME!!!!</string>
+    <string name="_0">0</string>
+</resources>
